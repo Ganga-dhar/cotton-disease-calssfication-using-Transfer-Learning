@@ -2,7 +2,6 @@
 
 Dataset Available: https://www.kaggle.com/janmejaybhoi/cotton-disease-dataset
 
-Transfer Learning techniques:
+The poject is to predict wheather the image belongs to diseased class or not. In this dataset we have 4 classes diseased leaf , diseased plant , freash leaf and freash plant.I have used pretrained CNN models like VGG16, inceptionV3 and ResNet101 and checked that testing image is belongs to which class.
 
-1. VGG16
-By default, it loads weights pre-trained on ImageNet. Each Keras Application expects a specific kind of input preprocessing. For VGG16, call tf.keras.applications.vgg16.preprocess_input on your inputs before passing them to the
+
